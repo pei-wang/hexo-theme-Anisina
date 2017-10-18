@@ -1040,6 +1040,17 @@ img::-moz-selection {
         padding: 0 5%;
     }
 
+    .container .row {
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        right: 100px;
+        justify-content: space-between;
+    }
+
+    .container .row .post-container{
+        margin-left: 0;
+    }
 }
 
 .container .toc-col {
